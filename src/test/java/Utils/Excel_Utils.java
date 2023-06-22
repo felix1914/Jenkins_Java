@@ -28,7 +28,7 @@ static Excel_Reader reader;
         try {
         	 
         
-            reader=new Excel_Reader("E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+            reader=new Excel_Reader("E:\\Jenkins_Java\\Excel\\Book1.xlsx");
            
         } catch (Exception e) {
             // TODO Auto-generated catch block
@@ -72,7 +72,7 @@ static Excel_Reader reader;
     public static void writeinexcel2(String value, int INDEX) throws Exception {
         Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
         FileInputStream excelloc = new FileInputStream(fis);
         XSSFWorkbook wb = new XSSFWorkbook(excelloc);
         XSSFSheet s = wb.getSheetAt(0);
@@ -100,7 +100,7 @@ static Excel_Reader reader;
     public static void writeinexcel3(String value, int INDEX) throws Exception {
         Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
         FileInputStream excelloc = new FileInputStream(fis);
         XSSFWorkbook wb = new XSSFWorkbook(excelloc);
         XSSFSheet s = wb.getSheetAt(0);
@@ -125,7 +125,7 @@ static Excel_Reader reader;
     public static void writeinexcel4(String value, int INDEX) throws Exception {
         Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
         FileInputStream excelloc = new FileInputStream(fis);
         XSSFWorkbook wb = new XSSFWorkbook(excelloc);
         XSSFSheet s = wb.getSheetAt(0);
@@ -151,7 +151,7 @@ static Excel_Reader reader;
     public static void writeinexcel5(String value, int INDEX) throws Exception {
     	 Thread.sleep(2000);
          File fis = new File(
-                 "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                 "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
          FileInputStream excelloc = new FileInputStream(fis);
  		XSSFWorkbook wb = new XSSFWorkbook(excelloc);
  		XSSFSheet s = wb.getSheetAt(0);
@@ -177,7 +177,7 @@ static Excel_Reader reader;
     public static void writeinexcel6(String value, int INDEX) throws Exception {
     	Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
        
         FileInputStream excelloc = new FileInputStream(fis);
 		XSSFWorkbook wb = new XSSFWorkbook(excelloc);
@@ -204,7 +204,7 @@ static Excel_Reader reader;
     public static void writeinexcel7(String value, int INDEX) throws Exception {
     	Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
        
         FileInputStream excelloc = new FileInputStream(fis);
 		XSSFWorkbook wb = new XSSFWorkbook(excelloc);
@@ -232,7 +232,7 @@ static Excel_Reader reader;
     public static void writeinexcel9(String value, int INDEX) throws Exception {
         Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
         FileInputStream excelloc = new FileInputStream(fis);
         XSSFWorkbook wb = new XSSFWorkbook(excelloc);
         XSSFSheet s = wb.getSheetAt(0);
@@ -260,7 +260,7 @@ static Excel_Reader reader;
     public static void writeinexcel8(String value, int INDEX) throws Exception {
         Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
         FileInputStream excelloc = new FileInputStream(fis);
         XSSFWorkbook wb = new XSSFWorkbook(excelloc);
         XSSFSheet s = wb.getSheetAt(0);
@@ -288,7 +288,7 @@ static Excel_Reader reader;
     public static void writeinexcel10(String value, int INDEX) throws Exception {
     	 Thread.sleep(2000);
          File fis = new File(
-                 "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                 "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
          FileInputStream excelloc = new FileInputStream(fis);
          XSSFWorkbook wb = new XSSFWorkbook(excelloc);
          XSSFSheet s = wb.getSheetAt(0);
@@ -313,7 +313,7 @@ static Excel_Reader reader;
     public static void writeinexcel11(String value, int INDEX) throws Exception {
         Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
         FileInputStream excelloc = new FileInputStream(fis);
         XSSFWorkbook wb = new XSSFWorkbook(excelloc);
         XSSFSheet s = wb.getSheetAt(0);
@@ -327,7 +327,7 @@ static Excel_Reader reader;
     public static void writeinexcel12(int  respCode, int INDEX) throws Exception {
     	 Thread.sleep(2000);
          File fis = new File(
-                 "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                 "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
          FileInputStream excelloc = new FileInputStream(fis);
          XSSFWorkbook wb = new XSSFWorkbook(excelloc);
          XSSFSheet s = wb.getSheetAt(0);
@@ -357,7 +357,7 @@ static Excel_Reader reader;
     public static void writeinexcel13(String value, int INDEX) throws Exception {
         Thread.sleep(2000);
         File fis = new File(
-                "E:\\selenium\\SEO_content\\SEO_Automation\\Excel\\Book1.xlsx");
+                "E:\\Jenkins_Java\\Excel\\Book1.xlsx");
         FileInputStream excelloc = new FileInputStream(fis);
         XSSFWorkbook wb = new XSSFWorkbook(excelloc);
         XSSFSheet s = wb.getSheetAt(0);

@@ -122,6 +122,7 @@ public class Run extends LibGlobal {
 		if (h1count.isEmpty()) {
 			System.out.println(" H1 page not have");
 			int parseInt = Integer.parseInt(INDEX);
+		//	System.out.println(" H1 page not have");
 			
 			Excel_Utils.writeinexcel9("page not have", parseInt);
 		} else if (h1count.length()==1) {
