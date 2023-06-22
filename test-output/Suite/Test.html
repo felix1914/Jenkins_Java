@@ -1,0 +1,981 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>174/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 06 12:58:25 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>3311 seconds (3311938 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 151, https://uat.shriram.com/construction-equipment-finance, construction equipment finance (quick & easy) | shriram, construction equipment finance: shriram is the best place to get finance. we offer construction equipment loans like tippers, tip trailers, excavators etc., construction equipment finance: shriram is the best place to get finance. we offer construction equipment loans like tippers, tip trailers, excavators etc.</td>
+<td></td>
+<td>14</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 119, https://uat.shriram.com/article-five-biggest-mistakes-to-avoid-when-getting-a-business-loan, the 5 biggest mistakes to avoid when getting a business loan, applying for a business loan? avoiding some of the common mistakes you may make during the business loan procedure can ensure approval for a loan., business loan, apply for business loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 137, https://uat.shriram.com/article-what-makes-a-fixed-deposit-different-from-recurring-deposit, what makes a fixed deposit different from a recurring deposit?, the article focuses on comparison and difference between fixed deposit and recurring deposit, highlighting facts by taking the basis of return of income (roi) and other parameters., fixed deposit, recurring deposit, fd vs rd, fd roi, rd roi, difference between fixed deposit and recurring deposit
+</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 172, https://uat.shriram.com/investors-public-issue-of-ncds, public issue of non-convertible debentures (ncds) in 2022 | shriram, find the latest public issue on non-convertible debenture at shriram finance company. they are corporate bonds with fixed interest and tenures, visit shriram., find the latest public issue on non-convertible debenture at shriram finance company. they are corporate bonds with fixed interest and tenures, visit shriram.</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 67, https://uat.shriram.com/article-bike-loan-on-fixed-vs-floating-interest-rate-which-is-better, bike loan on fixed v/s floating interest rate - which is better? | shriram city, find out the difference between fixed and floating rate of interest for bike loan and pros & cons of variable and fixed interest rate., bike loan on fixed interest rate, comparison of fixed vs floating interest rate</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 97, https://uat.shriram.com/article-flexible-payment-options-for-gold-loan-scheme, flexible payment options for gold loan scheme, learn more about gold loan schemes with flexible tenure and repayment options that help you deal with a financial emergency., pledged jewel loan, gold loan tenure, gold loan scheme</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 145, https://uat.shriram.com/toll-finance, apply for toll finance for commercial business | shriram, toll finance allows easy payment of toll by offering fastag & financing options like loans. customers can now avail smooth running of their trucks & vehicles, toll finance allows easy payment of toll by offering fastag & financing options like loans. customers can now avail smooth running of their trucks & vehicles</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 30, https://uat.shriram.com/article-are-recurring-deposits-covered-by-insurance, know about the insurance cover offered on the making of recurring deposits, recurring deposits are one of the secured investment plans. the best part is that it comes with insurance cover offered by the deposit insurance credit guarantee corporation.
+, rd, secure investment plan, recurring deposit, insurance for rd</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 165, https://uat.shriram.com/investors-dial-in-for-conference-call, download the latest intimation of conference call documents | shriram, keep yourself updated with this page for information regarding shriram company's current dial-in conference call for investors. download the latest intimation of conference call documents., keep yourself updated with this page for information regarding shriram company's current dial-in conference call for investors. download the latest intimation of conference call documents.</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 37, https://uat.shriram.com/testimonials, testimonials - shriram city union finance, read testimonials or feedback from customers. it is a detailed story about the customer’s experience before and after using the shriram city products., shriram city testimonials, customer testimonials</td>
+<td></td>
+<td>17</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 53, https://uat.shriram.com/article-monthly-interest-for-one-lakh-fixed-deposit, monthly interest for rs.1 lakh fixed deposit - shriram city, check out to understand the importance of fd investment and the effect of compounding. the earlier they can start, the more they will be able to earn., fixed deposit, fd online, fd investment, fd interest rate</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 105, https://uat.shriram.com/article-is-there-any-maximum-and-minimum-limit-for-availing-gold-loan, is there any maximum and minimum limit for availing gold loan?, check out to know what is gold loan, minimum & maximum gold loan amount, kyc for gold loan apply and mistakes to avoid gold loan apply., gold loan, gold loan online, minimum gold loan amount, maximum gold loan amount</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 80, https://uat.shriram.com/article-how-to-apply-for-a-gold-loan-and-know-its-benefits, how to apply for a gold loan and know its benefits, gold loan is help to get a significant sum of money instantly. this article will help you understand how to apply for gold loan and its benefits., gold loan apply, how to apply for gold loan, gold loan apply online, gold loan beneftis</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 41, https://uat.shriram.com/fixed-deposit-calculator, fd calculator | calculate fixed deposit returns,  maturity amount - shriram city, with easy 2 steps, fixed deposit calculator helps you to calculate fd interest rate and maturity amount on your investment. invest fd online at shriram city., fd calculator,fixed deposit calculator,fd interest calculator,interest on fixed deposit calculator,interest for fixed deposit calculator,fixed deposit rate calculator,fd calculator india,fixed deposit calculator online,online calculator for fixed deposit,fixed deposit interest calculator online,fixed deposit rates calculator online</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 170, https://uat.shriram.com/investors-ombudsman-scheme-for-nbfc, ombudsman scheme for non-banking financial company, if you want guidelines regarding the ombudsman scheme with its salient features in all the regional languages of india, you can download it here! visit shriram., if you want guidelines regarding the ombudsman scheme with its salient features in all the regional languages of india, you can download it here! visit shriram.</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 9, https://uat.shriram.com/about-us, apply & get your instant loans with india's top nbfc | shriram, get your loans online - shriram offers commercial vehicle loans, life insurance, business loans, home loan, bike loans, gold loans and fixed deposits. visit to know more details, about shriram city, shriram city vision, shriram city mission, shriram city community service</td>
+<td></td>
+<td>14</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 32, https://uat.shriram.com/two-wheeler-loan, two wheeler loan | get bike loan at lowest interest rate - scuf, get two wheeler loan online upto 100% financing with instant approval. buy your dream bike with shriram two wheeler finance at low interest rate & easy emi., two wheeler loan, 2 wheeler loan, bike loan, bike finance</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 82, https://uat.shriram.com/article-what-collateral-do-you-need-to-provide-for-gold-loan, what collateral do you need to provide for a gold loan?, when you require money on an urgent basis, the gold loan is one of the best solutions. check out the guide to know what collateral can pledge while applying for a gold loan., collateral for gold loan, security for gold loan</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 138, https://uat.shriram.com/article-is-there-any-extra-interest-in-fd-renewal, what is the fixed deposit renewal rate? is there any extra interest?, fixed deposits are one of the most secured savings options. read in detail about the fd renewal benefits and interest earned on the same., fd renewal, auto renewal of fixed deposit, renewal of fixed deposit
+</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 49, https://uat.shriram.com/article-myths-and-facts-about-gold-loan, know myths vs facts about gold loan - shriram city, check out to know about 5 important myths and facts about gold loan. this guide will help you to understand better to get maximum benefits on gold loan., gold loan, gold loan online, gold myth vs facts</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 76, https://uat.shriram.com/article-what-is-the-quality-of-gold-that-is-accepted-for-gold-loan-collateral, accepted gold quality for the valuation of gold loan | shriram city, gold loan valuation is based on the purity of the gold, higher the purity of the gold, the higher the loan amount. take gold loan with instant processing & disbursal, gold loan, loan against gold ornaments, loan against gold </td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 5, https://uat.shriram.com/home-loan, apply housing loan online with low interest rate | shriram, apply the best housing loan in india with an affordable home loan�interest rate in the market from shriram limited to build your own dream house. avail online now!., apply the best housing loan in india with an affordable home loan�interest rate in the market from shriram limited to build your own dream house. avail online now!.</td>
+<td></td>
+<td>17</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 84, https://uat.shriram.com/article-6-gold-loan-documents-you-need-to-know-about, 6 gold loan documents you need to know about, anyone can get a loan against their gold ornaments. check out to know what are the required documents to apply for jewel loan. , gold loan, loan against gold, loan against jewelry</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 156, https://uat.shriram.com/investors-bank-mandate-updation, how to apply for bank mandate updation online | shriram, with the help of our shrirams bank mandate page, you can apply for bank mandate updation online and also you can understand more about how to do that. read more!, with the help of our shrirams bank mandate page, you can apply for bank mandate updation online and also you can understand more about how to do that. read more!</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 43, https://uat.shriram.com/terms-and-conditions, terms and conditions - shriram city union finance, check out to know shriram city's terms and conditions in detail. know every terms and condition before applying for the loan online., shriram city union finance, scuf, shri ram finance, shriram city finance</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 3, https://uat.shriram.com/gold-loan, apply gold loan online - get instant loan against gold in india - shriram, get an instant loan against gold jewellery with a maximum value per gram at a low-interest rate in india. apply online for a safe & secure gold loan., get an instant loan against gold jewellery with a maximum value per gram at a low-interest rate in india. apply online for a safe & secure gold loan.</td>
+<td></td>
+<td>14</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 136, https://uat.shriram.com/article-are-the-interest-rates-the-same-whether-you-choose-the-cumulative-or-non-cumulative-option, roi comparison between cumulative and non-cumulative fixed deposits, understand cumulative and non-cumulative fixed-term deposits and the interest rates earned on them by investors., cumulative fd, non-cumulative fixed deposits, cumulative fixed deposit</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 7, https://uat.shriram.com/testimonials, testimonials - the valuable feedback from customers | shriram, customer testimonials and feedback it is a detailed account of the customer's experience before and after using shriram products., shriram city testimonials, customer testimonials</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 129, https://uat.shriram.com/article-how-to-receive-the-best-terms-on-small-business-loan, how to receive the best terms on a small business loan, learn how to avail of the best small business loan online and the essential features of shriram city union finance business loan., business loan online, small business loans, sme loan</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 36, https://uat.shriram.com/careers, careers - shriram city union finance, find shriram city job opportunities and apply online. join our excellent working environment for all qualified and talented individuals to excel in your career., shriram careers, shriram city job openings, shriram job apply, shriram city job opportunities</td>
+<td></td>
+<td>17</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 59, https://uat.shriram.com/article-how-do-i-know-if-i-fit-the-eligibility-criteria-for-a-two-wheeler-loan, how do i know if i fit the eligibility criteria for a bike loan?, know your bike loan eligibility, as it can help you understand the next steps that go into assessing an applicant’s eligibility for a bike loan.
+, bike loan eligibility, eligibility criteria for two wheeler loan, eligibility for bike loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 147, https://uat.shriram.com/repair-top-up-loan, apply for repair & top up loans for commercial vehicle | shriram, shriram offers repair/top up loans to meet various financial needs for trucks or other vehicles with easy repayment options & enjoy reasonable interest rates., shriram offers repair/top up loans to meet various financial needs for trucks or other vehicles with easy repayment options & enjoy reasonable interest rates.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 168, https://uat.shriram.com/investors-public-disclosure-on-liquidity-risk, public disclosure on liquidity risk | shriram, the disclosure in terms of the rbi circular, for information regarding our liquidity risk, you can visit shriram public disclosure on liquidity risk page., the disclosure in terms of the rbi circular, for information regarding our liquidity risk, you can visit shriram public disclosure on liquidity risk page.</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 21, https://uat.shriram.com/article-two-wheeler-loan-eligibility, two wheeler loan eligibility: check bike loan eligibility criteria, check bike loan eligibility criteria, list of required documents, minimum age limit to get 2 wheeler loan online at shriram city union finance ltd., two wheeler loan eligibility, bike loan eligibility, two wheeler loan eligibility check, 2 wheeler loan eligibility</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 163, https://uat.shriram.com/investors-business-overview, the compleate overview of our business | shriram, visit this page to know more about the net worth, branches, number of employees, and asset details of shriram finance. to learn more, go to shriram finance!, visit this page to know more about the net worth, branches, number of employees, and asset details of shriram finance. to learn more, go to shriram finance!</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 81, https://uat.shriram.com/article-complete-guide-about-loans-and-disbursement-charges, loans and disbursement charges: the complete guide, while taking loan, it is very important to understand the loans and disbursement charges. read to know about charges and processing fees for any loan, loans and disbursement charges, loan processing fees, loan charges</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 173, https://uat.shriram.com/investors-public-disclosure-on-liquidity-coverage-ratio, disclosures of related party transactions | shriram, find here the shriram finance disclosure of the related party transactions, year by year historical share price & quarterly year. for more info, visit shriram, find here the shriram finance disclosure of the related party transactions, year by year historical share price & quarterly year. for more info, visit shriram</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 74, https://uat.shriram.com/article-gold-loans-for-farmers, gold loan - all you need to know about interest rates for farmers, gold loans for farmers to help them with their agricultural activities. the gold loans are available at attractive interest at shriram city. check out to know more, gold loans for farmers, farmers loan, gold loan</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 146, https://uat.shriram.com/tyre-finance, apply for tyre finance with easy repayment options - shriram, worried about tyre replacement costs? shriram offers a loan facility for purchasing tyres of customers’ own choice & helps them with an easy repayment option., worried about tyre replacement costs? shriram offers a loan facility for purchasing tyres of customers’ own choice & helps them with an easy repayment option.</td>
+<td></td>
+<td>18</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 150, https://uat.shriram.com/commercial-vehicle-loan, commercial vehicle loan for new & used vehicles - shriram, shriram offers commercial vehicle loan for new and used vehicles. check eligibility to avail of a pre-owned vehicle loan with an attractive interest rate., shriram offers commercial vehicle loan for new and used vehicles. check eligibility to avail of a pre-owned vehicle loan with an attractive interest rate.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 31, https://uat.shriram.com/article-what-is-the-minimum-and-maximum-investment-amount-for-shriram-city-recurring-deposit, minimum and maximum investment amounts for shriram city recurring deposit, investing your money regularly in a recurring deposit account also has minimum and maximum limits. know which are these limits in this article. , recurring deposit account, what is a recurring deposit, recurring deposit scheme</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 64, https://uat.shriram.com/article-can-i-buy-bike-without-down-payment, can i buy a bike without a down payment?, there are loan providers like shriram city union finance that provide 100% financing on a bike loan. read more to understand how to get a 100% financing on your bike.
+, 100% financing on a bike loan,  zero loan without down payment loan, zero down payment bike loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 159, https://uat.shriram.com/investors-offshore-bonds, offshore bonds - masala bonds & global medium term note programme, shriram offshore bonds are called international bonds, which is a tax-efficient way to invest from the medium to long-term, for more info, visit shriram finance!, shriram offshore bonds are called international bonds, which is a tax-efficient way to invest from the medium to long-term, for more info, visit shriram finance!</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 20, https://uat.shriram.com/article-myths-and-facts-about-gold-loan, know myths vs facts about gold loan - shriram city, check out to know about 5 important myths and facts about gold loan. this guide will help you to understand better to get maximum benefits on gold loan., gold loan, gold loan online, gold myth vs facts</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 48, https://uat.shriram.com/article-all-about-gold-loan-and-how-does-gold-loan-work, what is gold loan in india & how does gold loan work, know about gold loan, how it works, what factors should know before applying for gold loan. avail shriram city gold loan at a low-interest rate, easy emi., gold loan, gold loan online, what is gold loan, how gold loan work</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 169, https://uat.shriram.com/investors-securities-issuance-committee, securities issuance committee - investors | shriram, if you want information regarding the intimation and outcome of the securities issuance committee meeting, you can download it here! visit shriram., if you want information regarding the intimation and outcome of the securities issuance committee meeting, you can download it here! visit shriram.</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 77, https://uat.shriram.com/article-can-you-get-a-gold-loan-when-you-cant-produce-a-bill-of-jewellery, can you get a gold loan when you can’t produce a bill of jewellery?, know how to get a gold credit without a bill or invoice of jewellery purchase. here are the steps involved in getting financing against gold , gold loan, gold loan online, loan against gold</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 111, https://uat.shriram.com/article-how-to-strategise-guaranteed-income-plan-for-financial-safety-net-to-secure-future, emergency fund & financial planning as a safety net for secured future, everyone faces financial complications now and then. having a monthly income plan as a safety net will ensure that your future is secured. read to know more., emergency fund, financial planning</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 60, https://uat.shriram.com/article-fixed-interest-rates-vs-floating-interest-rates-choose-the-best, fixed interest rates vs floating interest rates: choose the best, choosing between fixed and floating interest rates has been an eternal dilemma for every loan borrower. understand which is best for your financial needs.
+, two wheeler loan, fixed interest rates vs floating interest rates</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 124, https://uat.shriram.com/article-smart-ways-you-can-use-gold-to-fund-your-startup-gold-to-fund-a-business, gold loan for a startup? a new way to finance your business, how gold loans for business can help propel your startup in the right direction. a great way to fund your emerging business model., gold loan for startup, gold loan, gold loan online, shriram city gold loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 100, https://uat.shriram.com/article-how-you-can-pick-the-best-business-loan, how you can pick the best business loan, a business loan is a common requirement across all business types. explore what aspects are and how you can find the best business loan. , sme loan, sme loan online, best sme loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 171, https://uat.shriram.com/investors-annual-reports, annual reports - reasonable roi guaranteed| shriram, shriram finance company's annual report is a comprehensive report detailing our company's activities & finances throughout the previous financial year., shriram finance company's annual report is a comprehensive report detailing our company's activities & finances throughout the previous financial year.</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 167, https://uat.shriram.com/investors-intimation-of-change-in-board-of-directors, intimation of change in board of directors | shriram, you can get updates on this webpage if you want an imitation about a change in the shriram finance company board of directors. for more info, visit shriram finance!, you can get updates on this webpage if you want an imitation about a change in the shriram finance company board of directors. for more info, visit shriram finance!</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 104, https://uat.shriram.com/article-why-fixed-deposits-an-ideal-investment-option-for-beginners, why fixed deposits - an ideal investment option for beginners, are you a beginner looking for the best investment options? a fixed deposit with scuf is worth considering. as it offers the highest guaranteed returns on your investment. , investment option for beginners, best fixed-term deposit, best fixed deposit</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 155, https://uat.shriram.com/about-vision, our vision, mission, values & work culture | shriram, shriram's vision & mission is to focus on creating the most cost-effective and high-quality products and services based on their needs. we value our customer's satisfaction, shriram's vision & mission is to focus on creating the most cost-effective and high-quality products and services based on their needs. we value our customer's satisfaction</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 4, https://uat.shriram.com/fixed-deposit, fd - online fixed deposit online @ 8.40% interest rates | shriram, check out the highest fd interest rates at shriram. invest your money in our fixed deposit scheme & enjoy greater benefits., fixed deposit, fd, shriram city fd, shriram fd apply online, apply fd online, invest in fd</td>
+<td></td>
+<td>14</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 12, https://uat.shriram.com/fixed-deposit-calculator, fixed deposit calculator with interest rate and returns | shriram, fd calculator online - use fixed deposit calculator to calculate fd interest rates and fd maturity amount before investing in online fd at shriram., fixed deposit calculator, fd calculator</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 164, https://uat.shriram.com/investors-share-holding-pattern, download the current share holding pattern | shriram, download the detailed information about the shareholding pattern document here, and get the shriram shareholding pattern documents for the previous years!, download the detailed information about the shareholding pattern document here, and get the shriram shareholding pattern documents for the previous years!</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 1, https://uat.shriram.com/business-loan, business loan: apply for business loan online - shriram city, apply business loan online for small, medium and enterprises(sme). get quick financing upto rs.1 crore at low business loan interest rate in shriram city., business loan, sme loans, msme loan, small business loan</td>
+<td></td>
+<td>16</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 34, https://uat.shriram.com/fixed-deposit, fixed deposit i highest fixed deposit interest rates on your investment - scuf, fixed deposits provide safe and guaranteed returns on your investment. now invest in shriram city fixed deposit schemes online with high-interest rate., fixed deposit, fd, shriram city fd, shriram fd apply online, apply fd online, invest in fd</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 51, https://uat.shriram.com/article-risks-of-investing-in-fixed-deposit, risks to know before investing in fixed deposits - shriram city, know what are the risks involved while investing in fixed deposit. find the types of risks such as return risk, liquidity risk etc., risks in fd, invest in fd, risks involved in fd, types of risk in fd</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 174, https://uat.shriram.com/investors-letter-from-director, intimation letters from director | shriram finance, you can get additional information about our investor's information directly from our director by visiting the letter from this director webpage. visit shriram., you can get additional information about our investor's information directly from our director by visiting the letter from this director webpage. visit shriram.</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 109, https://uat.shriram.com/article-bank-vs-nbfc-which-is-better-to-take-loan, availing loans: banks v/s nbfc - shriram city, this article helps you decide whether banks or nbfcs are the right partners when you need a two-wheeler loan, bank vs nbfc, difference between bank and nbfc</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 6, https://uat.shriram.com/careers, careers - join us and future forward your career today with shriram, find shriram limited job opportunities and apply online. join our excellent working environment for all qualified and talented individuals to excel in your career., shriram careers, shriram city job openings, shriram job apply, shriram city job opportunities</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 96, https://uat.shriram.com/article-get-fixed-deposit-with-shriram-city-boost-your-savings-today, get a fixed deposit with shriram city & boost your savings today,  a guaranteed return plan with assured returns at maturity will ensure your dreams come true, fixed deposits with shriram city is ideal for beginner and retired people to boost their savings. ,  fixed deposit,  shriram finance fixed deposit, fd scheme, best fd scheme</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 14, https://uat.shriram.com/terms-and-conditions, terms and conditions applicable to loans, products & services | shriram, check out the shriram terms and conditions for more information. before applying for a loan online, ensure you understand the terms and conditions., shriram city union finance, scuf, shri ram finance, shriram city finance</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 94, https://uat.shriram.com/article-everything-you-need-to-know-about-fixed-deposits-in-india, everything you need to know about fixed deposits in india, fixed deposits are an ideal investment option for those looking to hedge their risk or worried about their funds’ safety. with scuf, you get the best fd interest and unparalleled service., fixed deposit schemes, fd schemes, fd online, fixed deposit</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 29, https://uat.shriram.com/article-is-it-possible-to-increase-the-credit-limit-on-business-loan, is it possible to increase the credit limit on a business loan?, there is a credit limit on the maximum business loan that you can avail of. however, there are ways to increase this credit limit and avail of the loan easily. find out how.
+, credit limit on a business loan, business loan credit limit, best way to increase credit limit</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 50, https://uat.shriram.com/article-two-wheeler-loan-eligibility, two wheeler loan eligibility: check bike loan eligibility criteria, check bike loan eligibility criteria, list of required documents, minimum age limit to get 2 wheeler loan online at shriram city union finance ltd., two wheeler loan eligibility, bike loan eligibility, two wheeler loan eligibility check, 2 wheeler loan eligibility</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 161, https://uat.shriram.com/investors-scheme-of-amalgamation, composite scheme of arrangement and amalgamation | shriram, check out all the information regarding our scheme of amalgamation. you can access reports such as a scheme, audit committee report, and financial data., check out all the information regarding our scheme of amalgamation. you can access reports such as a scheme, audit committee report, and financial data.</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 24, https://uat.shriram.com/article-monthly-interest-for-one-lakh-fixed-deposit, monthly interest for rs.1 lakh fixed deposit - shriram city, check out to understand the importance of fd investment and the effect of compounding. the earlier they can start, the more they will be able to earn., fixed deposit, fd online, fd investment, fd interest rate</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 153, https://uat.shriram.com/our-journey, our journey - learn more about our history and story of shriram, check out & learn more about this page to explore the journey of the success stories and milestones that shriram has achieved and made over the decades., check out & learn more about this page to explore the journey of the success stories and milestones that shriram has achieved and made over the decades.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 135, https://uat.shriram.com/article-what-happens-to-a-fixed-deposit-if-the-depositor-passes-away, fixed deposit management and withdrawal after depositor's death, different ways in which fixed deposits can be managed by nominees, legal heirs, or joint account holders in case of the depositor's death., fixed deposit withdrawal, premature withdrawal of fixed deposit, fd withdrawal before maturity
+</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 18, https://uat.shriram.com/article-things-you-should-know-about-senior-citizen-fixed-deposit, fixed deposit for senior citizen in india - shriram city, shriram city offers up to 9%p.a* for senior citizen fixed deposit scheme. check out here to know more about the senior citizen fd schemes in india., senior citizen fixed deposit, senior citizen fd, senior citizen fd rates, senior citizen fixed deposit interest rates</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 121, https://uat.shriram.com/article-how-to-choose-right-business-loan-for-an-msme-organization, msme loan at the lowest interest rates | shriram city, learn how to choose the right business loan for an msme organization., business loan, business loan online, how to choose business loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 11, https://uat.shriram.com/gold-loan-calculator, calculate gold loan rate per gram eligibility calculator online | shriram, calculate your monthly gold loan emi online against your gold jewellery in easy steps. calculate the monthly emi, interest payable, & total payment., calculate your monthly gold loan emi online against your gold jewellery in easy steps. calculate the monthly emi, interest payable, & total payment.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 102, https://uat.shriram.com/article-does-shriram-city-provide-an-emi-calculator, does shriram city provide an emi calculator?, it is crucial to calculate the emi amount before applying for a loan. also, you can plan the repayment process based on the value of the emi amount. this article will discuss some crucial aspects of emi and the calculation procedure.  , emi calculator, how to calculate emi, monthly installment for loan, calculate the emi</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 117, https://uat.shriram.com/article-what-are-the-alternatives-for-business-loan, business loan alternatives in india | shriram city, find some of the alternatives for a business loan in india., alternative financing, business loan, business loan in india</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 69, https://uat.shriram.com/article-one-stop-guide-on-delay-or-defaulting-on-loan-emis, one-stop guide on delay or defaulting on loan emis, check out to know the penalty or defaulting on loan emi. know the impact of emi default and what should do if you have defaulted your emi., default on loan emi, late payment fee, penalty for delay emi</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 141, https://uat.shriram.com/working-capital-loan, working capital loan: working capital loans for sme online | shriram, working capital loans: tyre loans, insurance loans, and fuel loans are offered. business owners can meet their requirements of money. know more about working capital loans and interest rates., working capital loans: tyre loans, insurance loans, and fuel loans are offered. business owners can meet their requirements of money. know more about working capital loans and interest rates.</td>
+<td></td>
+<td>14</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 86, https://uat.shriram.com/article-is-a-pan-card-mandatory-for-gold-loan, is a pan card mandatory for a gold loan?, the gold loan application process is simple. here are the documents required to apply for it., documents required for gold loan, gold loan application process</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 78, https://uat.shriram.com/article-what-are-the-eligibility-criteria-for-gold-loan, what are the eligibility criteria for a gold loan?, keep reading to know all about gold loan eligibility, what are the supporting documents required for a gold loan? and more., gold loan eligibility, jewellery loan eligibility, gold loan eligibility criteria </td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 75, https://uat.shriram.com/article-is-a-two-wheeler-loan-eligible-for-tax-redemption, is a two-wheeler loan eligible for tax redemption?, is a two-wheeler loan also eligible for tax exemption? read on to find out all about taxation on vehicle loans, tax redemption for two wheeler loan, bike loan tax redemption</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 108, https://uat.shriram.com/article-can-nri-get-two-wheeler-loan, secure your ride when at home with the non-resident indian bike loan, non-resident indians can take a two-wheeler loan. check out to know common eligibility criteria, documents required, interest rates for nri., bike loan for nri, two wheeler loan for nri, can nri get two-wheeler loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 52, https://uat.shriram.com/article-which-is-better-compound-or-simple-interest-rate-in-fd, which is better: simple or compound interest rate in fd, planning to invest in a fixed deposit. guide to understand about simple interest rate or compound interest rate calculation in fixed deposit., fixed deposit, fixed deposit investment, fd online. fixed deposit in india</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 92, https://uat.shriram.com/article-how-to-select-the-most-effective-fixed-deposit-scheme, choose the most effective fixed deposit scheme in 2021 with a high-interest rate, a fixed deposit scheme or fd is an investment product. it offers assured returns with zero risks. this article will guide you to choose the best fixed deposit scheme., best fixed deposit scheme, how to choose the best fd plan in 2021, highest rate of interest for fixed deposit</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 118, https://uat.shriram.com/article-the-benefits-of-business-loan-and-how-it-will-help-you-to-grow-your-business, business loan benefits | shriram city, read to know the benefits of a business loan and how it will help you to grow your business, business loan benefits, business loan, business loan online, benefits of small business loans</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 122, https://uat.shriram.com/article-how-to-save-the-interest-amount-on-business-loan, how to save the interest amount on a business loan?, every year hundreds of businesses pay high interest on business loans, which can be avoided by keeping in mind a few things and structuring the business in a specific way., business loan, business loan interest rate, business loan online</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 132, https://uat.shriram.com/article-fixed-or-floating-which-type-of-interest-rate-is-better-on-business-loan, fixed or floating—which type of interest rate is better on your business loan?, what is a fixed interest rate and how does it differ from a floating interest rate
+, fixed vs floating interest rate, fixed or floating interest rate, fixed interest rate, floating interest rate</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 91, https://uat.shriram.com/article-invest-in-fixed-deposits-safest-and-secure-way-to-get-higher-returns, invest in fixed deposits: safest and secure way to get higher returns, check out to know how a fixed deposit is the best and secured option for all who are looking for safer ways to park their funds and expecting a guaranteed return on the same. ,  fixed deposits, fd, best fixed deposit fd schemes</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 38, https://uat.shriram.com/media, shriram city media: a guide to finance & investment, guide to personal finance, investments, financial tips & other finance related things., No excel data found</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 57, https://uat.shriram.com/article-everything-you-need-to-know-about-fixed-deposit-interest-rates, fd interest rates - everything you need to know - shriram city, check out to know everything about fd, things to remember about fd interest rates, fd interest rate calculation, tax for fd rates etc., fixed deposit interest rates, fd interest rate, fd rates, fixed deposit rates</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 107, https://uat.shriram.com/article-gold-loan-eligibility-for-nri, gold loan eligibility for nris in urgent need, gold loan for nri is available in shriram finance with minimal documentation & less interest rate. check out eligibility criteria for non-resident indians (nri) to apply gold loan, gold loan for nri, gold loan eligibility for nri, gold loan online for nri</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 39, https://uat.shriram.com/fixed-deposit-faqs, faq about fixed deposit(fd) - shriram city, shriram faqs - get to know the answers to shriram fixed deposit (fd) related questions before investing in shriram., shriram faqs - get to know the answers to shriram fixed deposit (fd) related questions before investing in shriram.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 88, https://uat.shriram.com/article-bought-bike-on-loan-but-dont-need-it-now-here-is-what-you-can-do, got a new two-wheeler on loan but want to return it. here are your options., returning a newly purchased, financed bike is not a straightforward affair. check out some possibilities with various scenarios and what you can do in each of these cases: , bike on loan, two wheeler loan, bike loan online</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 99, https://uat.shriram.com/article-how-gold-loan-and-cibil-score-are-related-to-each-other, how a gold loan and cibil score are related to each other?, gold loans offer more flexibility to the customer to use the funds any way they want. find here how to get a gold loan with a low cibil score, gold loan, credit score for gold loan, apply for a gold loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 56, https://uat.shriram.com/recurring-deposit, recurring deposit | rd investment returns with highest interest rate - scuf, open recurring deposits online with minimum instalment from rs.500 at shriram city union finance. invest on a regular basis and get a high interest rate on your rd., recurring deposit, rd, rd account, rd online</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 55, https://uat.shriram.com/recurring-deposit-faqs, faqs about recurring deposit (rd) - shriram city, get answers to all your questions regarding shriram city recurring deposits, including the benefits, interest rates and procedure to open a rd account., shriram city rd  faqs, faqs about rd</td>
+<td></td>
+<td>17</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 25, https://uat.shriram.com/recurring-deposit-faqs, recurring deposit faqs (frequently asked question) | shriram, have questions or doubts about recurring deposit (rd)? get all your answer related to recurring deposit frequently asked questions. everything you need to know., shriram city rd  faqs, faqs about rd</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 95, https://uat.shriram.com/article-how-to-get-best-loan-against-gold-scheme-offered-by-shriram-city-in-india, how to get best loan against gold scheme offered by shriram city in india, this article covers gold loans in greater detail and explains how to get the best loan against gold schemes available in india, gold loan, gold loan benefits, best loan against gold scheme, loan against gold 
+</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 27, https://uat.shriram.com/article-are-recurring-deposits-covered-by-insurance, know about the insurance cover offered on the making of recurring deposits, recurring deposits are one of the secured investment plans. the best part is that it comes with insurance cover offered by the deposit insurance credit guarantee corporation.
+, rd, secure investment plan, recurring deposit, insurance for rd</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 22, https://uat.shriram.com/article-risks-of-investing-in-fixed-deposit, risks to know before investing in fixed deposits - shriram city, know what are the risks involved while investing in fixed deposit. find the types of risks such as return risk, liquidity risk etc., risks in fd, invest in fd, risks involved in fd, types of risk in fd</td>
+<td></td>
+<td>21</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 128, https://uat.shriram.com/article-are-there-any-extra-charges-for-business-loan-besides-gst-and-interest, charges on business loans apart from interest on loan and gst, learn about various other charges apart from interest and gst and distinguish those charges with shriram city union finance charges on its business loan offering., business loans charges, charges on business loans, business loans and gst charges</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 68, https://uat.shriram.com/article-ultimate-guide-for-foreclosure-charges, foreclosure charges: the ultimate guide to the cost of being debt free, let us first understand what loan foreclosure is and it is repaying the entire amount due in a single payment instead of repaying the borrowed amount in emis, foreclosure charges, loan borrowers, tips to calculate the foreclosure charges</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 62, https://uat.shriram.com/article-what-happens-when-you-delay-bike-loan-emi, what happens when you delay bike loan emi, defaulting on two wheeler loan repayment can have severe consequences on your credit report, making it difficult for you to get loan approvals in the future.
+, delay bike loan emi, bike loan emi penalty</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 112, https://uat.shriram.com/article-bank-fixed-deposit-or-non-bank-fixed-deposit, bank fixed deposit or non-bank fixed deposit? here’s a comparative study, a comparative study between bank fixed deposit and non-bank fixed deposit
+gold loan, corporate fixed deposit, higher-return investment scheme, with guaranteed returns, bank fixed deposit, non-bank fixed deposit, bank fd, nbfc fc</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 46, https://uat.shriram.com/article-why-shriram-city-union-finance-fixed-deposit-is-the-best, why shriram city fixed deposit is the best investment option, shriram city provides the highest degree of safety, high-interest fd, flexible tenure and more. check out to know more about shriram fd., shriram city union finance fd, shriram city union finance fd rates, shriram city union finance fixed deposit</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 116, https://uat.shriram.com/article-how-to-pick-the-right-investment-scheme-for-you-and-how-do-fixed-deposits-work, understanding of how a fixed deposit works in india , how to identify the right asset class for yourself with an understanding of how fixed deposits work in india, fixed deposit, fd, best fixed deposit, how to choose right investment scheme</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 35, https://uat.shriram.com/home-loan, home loan: avail best housing finance in india - shriram city, avail best housing financing in india with affordable rate of interest at shriram housing finance ltd. check eligibility to apply., home loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 16, https://uat.shriram.com/downloads, deposits form downloads | shriram finance, shriram finance download deposit-related forms
+✓ application forms 
+✓ form 60 
+✓ address change 
+✓ loan against deposit 
+✓ nominee change & more. visit shriram., shriram finance download deposit-related forms
+✓ application forms 
+✓ form 60 
+✓ address change 
+✓ loan against deposit 
+✓ nominee change & more. visit shriram.</td>
+<td></td>
+<td>17</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 79, https://uat.shriram.com/article-gold-loan-eligibility-everything-you-need-to-know, gold loan eligibility – everything you need to know, gold loan is very useful at emergency situation at low interest rate. check out the gold loan eligibility and everything you need to know before applying for it. , gold loan eligibility, gold loan eligibility criteria</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 110, https://uat.shriram.com/article-what-can-happen-when-fixed-deposit-is-not-renewed-or-withdrawn, renew vs withdrawal in a fixed deposit, are you also confused about renew vs withdrawal in a fixed deposit? if yes, read this article to solve all your dilemma. ,  fixed deposit, renew vs withdrawal in a fixed deposit</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 47, https://uat.shriram.com/article-things-you-should-know-about-senior-citizen-fixed-deposit, fixed deposit for senior citizen in india - shriram city, shriram city offers up to 9%p.a* for senior citizen fixed deposit scheme. check out here to know more about the senior citizen fd schemes in india., senior citizen fixed deposit, senior citizen fd, senior citizen fd rates, senior citizen fixed deposit interest rates</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 73, https://uat.shriram.com/article-interest-charges-on-gold-loan, interest rates and other charges on gold loan | shriram city, shriram city offers gold loan with minimum simple interest rates so that you can afford instant loan at pocket friendly emi & flexible repayment option without any hidden charges., gold loan, interest charges on gold loan</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 17, https://uat.shriram.com/article-why-shriram-city-union-finance-fixed-deposit-is-the-best, why shriram city fixed deposit is the best investment option, shriram city provides the highest degree of safety, high-interest fd, flexible tenure and more. check out to know more about shriram fd., shriram city union finance fd, shriram city union finance fd rates, shriram city union finance fixed deposit</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 120, https://uat.shriram.com/article-common-myths-around-business-loans, some common myths around business loans, here are a few common myths that you should not believe in if you are applying for a business loan, business loan myths, business loan, apply for a business loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 72, https://uat.shriram.com/article-weight-of-gst-on-gold-loan-interest, weight of gst on gold loan interest - shriram city, gst on gold loan will be charged when you take a gold loan. click to know the details of gst tax rates, impacts of gst and more
+
+, gst on gold loan, gst rates on gold loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 85, https://uat.shriram.com/article-four-ways-to-settle-gold-loan, are you looking to settle your gold loan? here are four ways to ace it, should you opt for pre-closure of gold loan, or is waiting for maturity a better option? this article discusses gold loan repayment and what can happen if you skip it. , gold loan, looking to settle gold loan,  pre-closure of gold loan, gold loan pre-closure policy</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 158, https://uat.shriram.com/investors-key-managerial-personnel, find out our key managerial personnel (kmp) & directors | shriram, check out here to know more details about the key managerial personnel (kmp), the board directors and the chief managers of shriram, check out here to know more details about the key managerial personnel (kmp), the board directors and the chief managers of shriram</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 61, https://uat.shriram.com/article-skys-the-limit-with-shriram-finance-two-wheeler-loan, sky's the limit with shriram finance two-wheeler loan, shriram city provides two wheeler loan with attractive interest rates, convenient processing, disbursal, and flexible loan repayment terms.
+, shriram city two wheeler loan, shriram bike loan, shriram finance bike loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 133, https://uat.shriram.com/article-fixed-deposit-vs-unit-linked-insurance-plan-where-to-invest, which is a better savings avenue: fixed deposits or ulips?, understand the benefits of fixed deposits and ulips and the differences between them. know about higher interest on fixed deposits like shriram city fixed deposit., fd vs ulip investment, fixed deposits and ulips, fd vs ulip, fd or ulip</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 15, https://uat.shriram.com/article-benefits-of-gold-loan-over-personal-loan, benefits of gold loan over personal loan - shriram city, check out to know the facts that availing a gold loan works better than personal loan & also find the difference between taking gold loan and personal loan., gold loan vs personal loan, gold loan or personal loan which is better</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 103, https://uat.shriram.com/article-which-is-the-best-shriram-city-loan-scheme-to-buy-a-two-wheeler, which is the best shriram city loan scheme to buy a two-wheeler?, own your dream bike with shriram city is 100% hassle-free funding. check out here about shriram city two wheeler loan features, eligibility & how to apply online, two wheeler loan, bike loan, shriram city two-wheeler loan online, buy two wheeler loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 166, https://uat.shriram.com/investors-private-issue-of-ncds, investors private issue of non-convertible debentures (ncds) | shriram, you can download details about the intimation of raising funds, outcome of allotment committee ncds and buyback intimation you can make use of this page, you can download details about the intimation of raising funds, outcome of allotment committee ncds and buyback intimation you can make use of this page</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 89, https://uat.shriram.com/article-is-it-possible-to-get-an-instant-gold-loan, is it possible to get an instant gold loan?, instant gold loan is possible and easy. check out to know how to get an instant gold loan, gold loan approval process and gold loan benefits., instant gold loan, instant loan against jewelry, instant loan for personal needs, get instant gold loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 98, https://uat.shriram.com/article-easy-ways-to-repay-the-loan-against-jewellery, easy ways to repay the loan against jewellery, the gold loan gives the borrower the freedom to choose the repayment methods as per convenience. click here to know to different methods of repaying the gold loan. , gold loan for short tenure, gold loan for long tenure</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 114, https://uat.shriram.com/article-how-to-get-quick-and-easy-business-loans-under-difficult-circumstances, how to get quick and easy business loans under difficult circumstances?, a step by step easy procedure to get business loans., quick business loan, business loan, easy business loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 33, https://uat.shriram.com/gold-loan, gold loan i get loan against gold with highest rate per gram - scuf, apply for gold loan against gold jewellery with maximum value per gram at low interest rate. apply online for a safe and secure gold loan from shriram city., gold loan, loan against gold, instant cash for gold</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 143, https://uat.shriram.com/fuel-finance, fuel finance: how to apply for fuel loans online | shriram, shriram provides loans for fuel filling with major fuel providers across the country which are super convenient to all the heavy vehicle owners., shriram provides loans for fuel filling with major fuel providers across the country which are super convenient to all the heavy vehicle owners.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 23, https://uat.shriram.com/article-which-is-better-compound-or-simple-interest-rate-in-fd, which is better: simple or compound interest rate in fd, planning to invest in a fixed deposit. guide to understand about simple interest rate or compound interest rate calculation in fixed deposit., fixed deposit, fixed deposit investment, fd online. fixed deposit in india</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 160, https://uat.shriram.com/investors-dividend-track-record, dividend track record: get taxation of dividend distribution tax, get detailed information about the final and total dividend track records for the last years, and know shriram dividend track records for the previous years here!, get detailed information about the final and total dividend track records for the last years, and know shriram dividend track records for the previous years here!</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 26, https://uat.shriram.com/recurring-deposit, recurring deposit: open rd online & get upto 9% interest rate, open recurring deposits online with minimum instalment from rs.500 at shriram city union finance. invest on a regular basis and get a high interest rate on your rd., recurring deposit, rd, rd account, rd online</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 45, https://uat.shriram.com/downloads, downloads: sme, gold loan & two wheeler loan draft agreement - shriram city, download here the draft agreement of shriram city business loan, two wheeler loan & gold loan in your preferred languages., No excel data found</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 44, https://uat.shriram.com/article-benefits-of-gold-loan-over-personal-loan, benefits of gold loan over personal loan - shriram city, check out to know the facts that availing a gold loan works better than personal loan & also find the difference between taking gold loan and personal loan., gold loan vs personal loan, gold loan or personal loan which is better</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 126, https://uat.shriram.com/article-is-it-possible-to-apply-for-business-loan-in-india-as-a-sole-proprietor, is it possible to apply for a business loan in india as a sole proprietor?, starting your own business? you can get a business loan to fund your venture. find out how you can get an easy sme loan, and that too, online!
+, business loan, sme loan, business loan online, apply for sme loan
+</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 144, https://uat.shriram.com/tax-finance, tax finance loans for heavy vehicle owners- apply online| shriram, shriram provides road tax loans for heavy vehicle owners with low interest rates, flexible repayment options and many more. check out our website for more details, shriram provides road tax loans for heavy vehicle owners with low interest rates, flexible repayment options and many more. check out our website for more details</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 157, https://uat.shriram.com/investors-social-finance-framework, check out social finance framework & investment information | shriram, click here to know more about the social finance framework, investment information and annual review reports on social bonds of shriram, click here to know more about the social finance framework, investment information and annual review reports on social bonds of shriram</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 28, https://uat.shriram.com/article-what-are-the-various-modes-of-payment-that-i-can-use-to-invest-in-shriram-city, invest in shriram city fixed deposits using different payment methods, learn how to open a fixed deposit online mode with shriram city. know the online payment modes available for payment and other key features of shriram city fixed deposit. , fixed deposit, open fixed deposit, invest in shriram city fixed deposits, shriram city fd</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 106, https://uat.shriram.com/article-is-there-any-benefit-of-taking-loan-to-buy-two-wheeler, is there any benefit of taking a loan to buy a 2 wheeler?, taking a two-wheeler loan might have more benefits than you think. read on to find various advantages of taking a two-wheeler loan., two wheeler loan, bike loan, bike loan benefits</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 54, https://uat.shriram.com/recurring-deposit-calculator, recurring deposit (rd) emi calculator with interest rate | shriram, rd calculator online - you can use our recurring deposit calculator to calculate interest rates and rd maturity amount before investing. invest in an rd online at shriram., rd calculator online - you can use our recurring deposit calculator to calculate interest rates and rd maturity amount before investing. invest in an rd online at shriram.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 66, https://uat.shriram.com/article-different-payment-plans, what are the different payment plans - shriram city, lenders mostly provide the emi option to repay the bike loan. however, to make it easier, some lenders tend to offer two emi repayment plans for borrowers as per their income and cash flow., bike loan repayment, loan payment plans </td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 142, https://uat.shriram.com/tractor-farm-equipment-finance, tractor & farm equipment finance online - loans | shriram, tractor & farm equipment finance:�get finance for tractor and agriculture equipment with an exciting interest rate. request a call back for offers and loan-related inquiries., tractor & farm equipment finance:�get finance for tractor and agriculture equipment with an exciting interest rate. request a call back for offers and loan-related inquiries.</td>
+<td></td>
+<td>18</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 40, https://uat.shriram.com/about-us, about us - shriram city union finance, shriram city union finance is leading nbfc in india. its a part of shriram group & incorporated in 1986. we are specialized in retail and msme lending., about shriram city, shriram city vision, shriram city mission, shriram city community service</td>
+<td></td>
+<td>17</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 83, https://uat.shriram.com/article-what-do-you-mean-by-appraisal-of-gold-loans, what do you mean by appraisal of gold loans?, purity plays a huge role in determining the market value of gold. let’s understand the gold loan and its valuation in greater detail. , gold loan, gold loan online, apply for gold loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 115, https://uat.shriram.com/article-how-to-frequently-monitor-and-evaluate-your-investments, how to frequently monitor and evaluate your investments, a comparative study to understand how to create a portfolio to evaluate and monitor investments, investments, investment evaluation , tracking online assets, tracking online investment</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 148, https://uat.shriram.com/challan-discounting, challan discounting (bill discounting) - what it is & how to apply, challan discounting allows truck owners to save transportation money, improving operational efficiency. contact us now for more information., challan discounting allows truck owners to save transportation money, improving operational efficiency. contact us now for more information.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 58, https://uat.shriram.com/article-are-loans-available-for-used-two-wheeler, are loans available for a used two-wheeler - shriram city, get a loan for buying a used two-wheeler online. this article will talk about the most important things to consider when taking a pre-owned bike loan.
+, two wheeler loan, two wheeler loan online, used two wheeler loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 63, https://uat.shriram.com/article-cibil-score-for-bike-loan, what is the appropriate cibil they ask for when you apply for a bike loan?, checkout to know how much credit score required for a two-wheeler loan? if yes, read this article that describes what is the minimum cibil score required to get a two-wheeler loan.
+, cibil score for bike loan, credit score requirement for bike loan, cibil score requirement for bike loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 113, https://uat.shriram.com/article-all-you-need-to-know-about-nbfc-fixed-deposits, all you need to know about nbfc fixed deposits, nbfc fixed deposits are different from those offered by the bank. let’s understand what these deposit schemes are, how they work, and their benefits., nbfc fixed deposits, nbfc fd, fixed deposit, fd online</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 65, https://uat.shriram.com/article-bike-loan-for-student, why should adults have all the fun? now get a bike loan, even if you are a student, planning to avail a two wheeler loan as a student? shriram city union finance is india's leading non-banking financial company. the interest rates charged are the best in the market., bike loan for students, bike loan for college students, loan for a student on a bike</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 149, https://uat.shriram.com/recurring-deposit, best recurring deposit interest rates - get up to 8.50% at shriram, check out the highest rd interest rates at shriram. invest your money in our recurring deposit scheme & enjoy greater benefits, check out the highest rd interest rates at shriram. invest your money in our recurring deposit scheme & enjoy greater benefits</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 13, https://uat.shriram.com/pay-emi, pay loan emi, overdue loan payment online with net banking | shriram, easy to pay emi online at the shriram website. make secured online transactions for any loan emi payment such as bike loan, business loan, and gold loan., pay loan emi, emi payment online, pay shriram city loan emi online, pay loan emi online</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 70, https://uat.shriram.com/article-all-about-two-wheeler-loan-gst-and-interest-rates, know about two-wheeler loan gst and interest rates, check out the impacts of gst charges on motorbikes, charges associated with two-wheeler and how it affects two-wheeler loan processing., gst charges, loan charges, charges on loan, two-wheeler loan gst</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 93, https://uat.shriram.com/article-fixed-deposit-safe-and-secure-investment-strategy, fixed deposits are a secure investment strategy with higher returns, fixed deposit is one of the best saving investment options in india that guarantee a higher return as compared to returns given by saving accounts are fixed deposits., fixed deposit, best fixed deposit scheme, fd scheme</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 87, https://uat.shriram.com/article-gold-loan-disbursal-process-explained, the gold loan disbursal process explained, a gold loan is an excellent way of getting funds by keeping gold as collateral. know the howmuch time taken for loan against jewellery disbursal, gold loan process, gold loan eligibility criteria, gold loan disbursal</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 154, https://uat.shriram.com/shriram-way, our way : top & best nbfc in india | shriram, shriram - the top & best nbfc in india - we value customer relationships, build trust, create prosperity, transform lives and build an inclusive society., shriram - the top & best nbfc in india - we value customer relationships, build trust, create prosperity, transform lives and build an inclusive society.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 101, https://uat.shriram.com/article-how-different-is-it-to-avail-investment-banking-facilities-from-a-non-banking-firm, how different is it to avail investment banking facilities from a non-banking firm?, banks and nbfc (non-banking financial banking company) are the key financial intermediaries which offer the same services to the customers. in this article, we have discussed the major differences between bank and nbfc. , nbfc vs bank, differences between banks and nbfcs  </td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 134, https://uat.shriram.com/article-what-should-i-do-if-i-lose-or-misplace-my-fd-certificate-receipt-and-require-a-duplicate, procedure of lost or misplacement fd certificate or receipt | importance of e-fixed deposit, losing an fdr can pose a problem, but you can always retrieve a lost fdr and opt for a duplicate fd certificate at the bank. read more to find how., fixed deposit receipt, duplicate fd certificate,  lost or misplacement fd certificate </td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 90, https://uat.shriram.com/article-is-a-guarantor-or-introducer-necessary-for-availing-a-gold-loan, is a guarantor or introducer necessary for availing a gold loan?, is a gold loan requires a guarantor or an introducer for the applicant to be considered for the funding? check out to know in detail,  jewellery credit process, the jewellery loan process, eligibility gold finance criteria</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 127, https://uat.shriram.com/article-how-can-business-acquire-an-instant-loan, benefits of online instant business loan | shriram city, the key benefit of opting for an instant business loan is that the borrower gets the cash instantly to meet their contingency expenses, business loan, instant business loan, business loan online, sme loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 2, https://uat.shriram.com/two-wheeler-loan, two wheeler loan : apply for bike loan online at lowest interest rate�, apply two wheeler loan online with upto 100% finance at a very low-interest rate with easy emi options to buy your dream bike with shriram. apply now!, apply two wheeler loan online with upto 100% finance at a very low-interest rate with easy emi options to buy your dream bike with shriram. apply now!</td>
+<td></td>
+<td>16</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 19, https://uat.shriram.com/article-all-about-gold-loan-and-how-does-gold-loan-work, what is gold loan in india & how does gold loan work, know about gold loan, how it works, what factors should know before applying for gold loan. avail shriram city gold loan at a low-interest rate, easy emi., gold loan, gold loan online, what is gold loan, how gold loan work</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 71, https://uat.shriram.com/article-two-wheeler-loan-charges-and-processing-fees, what are the other charges and processing fees for two-wheeler loan?, check out to know the two-wheeler loan processing fee and other charges when buying a bike on emi. 
+,  two-wheeler loan processing fee, bike loan processing fee</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 123, https://uat.shriram.com/article-how-to-choose-the-right-business-loan-how-to-analyze-compare-different-business-loan-products, choose the best business loan | shriram city, click to know how to choose a business loan and types to cover several running costs such as expenses towards premises, staff salary, inventory, equipment, etc., best business loan, business loan, business loan online</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 140, https://uat.shriram.com/article-what-are-the-most-attractive-features-of-the-shriram-city-recurring-deposit, investing in shriram city’s recurring deposit is a smart decision to make, shriram city has the highest return on recurring deposit scheme that offers you a flexible tenure, credibility, and ease of investment. , shriram city rd, invest in rd, recurring deposit scheme</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 42, https://uat.shriram.com/pay-emi, shriram city emi payment | pay loan emi online, easy to pay emi online at shriram city union finance. make secured online transaction for any loan emi payment such as bike loan, business loan, gold loan., pay loan emi, emi payment online, pay shriram city loan emi online, pay loan emi online</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 139, https://uat.shriram.com/article-what-are-the-risks-of-putting-money-into-recurring-deposit, risks of putting money into a recurring deposit | is your money safe? , read on to find risk-free recurring deposit investments that offer you attractive features such as high returns, flexible pay-outs, and flexible tenure., recurring deposit, rd, shriram city rd, shriram city recurring deposit
+</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 10, https://uat.shriram.com/branch-locator, branch locator - find our nearest branch outlets | shriram, find & locate shriram branches near your location. find information about the address, phone number, products available at the branch by using our online branch locator, find & locate shriram branches near your location. find information about the address, phone number, products available at the branch by using our online branch locator</td>
+<td></td>
+<td>14</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 131, https://uat.shriram.com/article-what-are-the-different-types-of-business-loans-offered-by-shriram-city, what are the different types of business loans offered by shriram city?, there are various business loans offered by shriram city, which cater to different customer types. read to know which type might suit your needs., business loan, business loan online, types of business loan</td>
+<td></td>
+<td>20</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 8, https://uat.shriram.com/media, media : media release, videos, news bytes & photos | shriram, check out our shriram's media page to know more about the company's media updates, press release, videos, latest news and all achievement photos online, check out our shriram's media page to know more about the company's media updates, press release, videos, latest news and all achievement photos online</td>
+<td></td>
+<td>14</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 125, https://uat.shriram.com/article-how-to-fulfill-your-dreams-of-success-with-business-loan, how you can achieve success with a business loan?, do you contemplate how you can realise your dream of success? let’s get to know how you can achieve success with a business loan., business loan, sme loan, loan for business, online business loans</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 130, https://uat.shriram.com/article-how-can-i-improve-my-cibil-score-in-order-to-get-business-loan,  improve cibil score for a business loan, find out how to improve your cibil score and get the business loan you need to progress., online business loan, business loan, cibil score for business loan</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 162, https://uat.shriram.com/investors-credit-rating-letters, download the latest credit rating letters of shriram, for downloading shriram finance credit rating letters, you can visit the credit rating letter page. download now! enjoy the convenience and flexibility of shriram., for downloading shriram finance credit rating letters, you can visit the credit rating letter page. download now! enjoy the convenience and flexibility of shriram.</td>
+<td></td>
+<td>19</td>
+<td>Main.Run@18078bef</td></tr>
+<tr>
+<td title='Main.Run.PageURLverify()'><b>PageURLverify</b><br>Test class: Main.Run<br>Parameters: 152, https://uat.shriram.com/board-of-director, board management, board of directors ( chairman & vice chairman) | shriram, shriram's board management & board of directors comprehends the industry's most prominent and influential personalities. visit us to know more about our board of directors., shriram's board management & board of directors comprehends the industry's most prominent and influential personalities. visit us to know more about our board of directors.</td>
+<td></td>
+<td>13</td>
+<td>Main.Run@18078bef</td></tr>
+</table><p>
+</body>
+</html>

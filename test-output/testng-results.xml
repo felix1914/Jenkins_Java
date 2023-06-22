@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="35" passed="34" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-16T12:18:42 IST" name="Default suite" finished-at="2023-06-16T12:37:31 IST" duration-ms="1129111">
+    <groups>
+    </groups>
+    <test started-at="2023-06-16T12:18:42 IST" name="Default test" finished-at="2023-06-16T12:37:31 IST" duration-ms="1129111">
+      <class name="Main.Run">
+        <test-method is-config="true" signature="browserExe()[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:18:42 IST" name="browserExe" finished-at="2023-06-16T12:18:50 IST" duration-ms="8853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExe -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:18:52 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:19:35 IST" duration-ms="43664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[get life insurance plans & policies online | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shriram life offers a range of life insurance plans covering senior citizens, women, child and nris. choose the best savings, protection, retirement and child plans]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[let us help to you to choose the right life insurance plan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:19:35 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:20:05 IST" duration-ms="29850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/contact-us/faqs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[frequently asked questions | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shriram life compiled a list of frequently asked life insurance questions and answers]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[frequently asked questions(faq)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:20:05 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:20:36 IST" duration-ms="31214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/contact-us/service-request]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[service request | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[speak to shriram life insurance company's experts for all your service requests. our branch locator helps you to find the nearest branch across india.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[service request]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:20:36 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:21:07 IST" duration-ms="31126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/contact-us/sales-service-enquiry]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sales and service enquiry | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[speak to shriram life insurance company's experts for all your sales and service related queries. our branch locator helps you to find the nearest branch across india.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sales and service enquiry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:21:07 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:21:36 IST" duration-ms="28934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/services/aadhaar-ekyc-consent-revoking]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aadhaar e-kyc consent revoking | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aadhaar e-kyc consent revoking by shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[aadhaar e-kyc consent revoking]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:21:36 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:22:08 IST" duration-ms="32045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/testimonials/customer-testimonials]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[customer testimonials | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[get to know the customer testimonials]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[alpabetical testimonials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:22:08 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:22:37 IST" duration-ms="28744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/legal/terms-and-conditions]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[terms and conditions | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[get to know the shriram life terms and conditions]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[terms and conditions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:22:37 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:23:00 IST" duration-ms="22636" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/404]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[404 error | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[404 error in the website. you will be redirected to life insurance policy pages.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[404 error]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"h1"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIGITAL-0059', ip: '172.23.4.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\j416\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cdaff130bbcf58b362581426b88032b
+*** Element info: {Using=tag name, value=h1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h1"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIGITAL-0059', ip: '172.23.4.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\j416\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cdaff130bbcf58b362581426b88032b
+*** Element info: {Using=tag name, value=h1}
+at jdk.internal.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:396)
+at org.openqa.selenium.By$ByTagName.findElement(By.java:320)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Main.Run.PageURLverify(Run.java:209)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:23:00 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:23:29 IST" duration-ms="29080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/services/unclaimed-amounts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unclaimed amounts | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[unclaimed amounts in shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[unclaimed amounts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:23:29 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:23:58 IST" duration-ms="29072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/services/nav-history]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nav history | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nav history by shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[nav history]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:23:58 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:24:40 IST" duration-ms="42350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/legal/become-an-advisor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[become an advisor | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[register as an advisor in shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[become an advisor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:24:40 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:25:12 IST" duration-ms="31931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/life-insurance/super-income-plan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[super income plan in india | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[buy super income life insurance premium plan and track policy online. riders add-ons. get covered up to 75 years and also avail tax benefits u/s 80c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[shriram life super income plan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:25:12 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:25:44 IST" duration-ms="31810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/life-insurance/assured-income-plan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[assured income plan in india | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[buy assured income life insurance premium plan and track policy online. riders add-ons. get covered up to 70 years and also avail tax benefits u/s 80c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[shriram life assured income plan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:25:44 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:26:15 IST" duration-ms="30548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/life-insurance/savings-plan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shriram life insurance premium savings plans in india]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[buy shriram life insurance premium savings plans and track policy online. can opt for riders add-ons. get covered with tax benefits u/s 80c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[life insurance savings plan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:26:15 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:26:47 IST" duration-ms="32215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/reach-us]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[reach us | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[you can reach us by toll-free numbers or through branch]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[reach us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:26:47 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:27:16 IST" duration-ms="29118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/contact-us/branches]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[branch locator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[locate the shriram life insurance branches nearby your location]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[branch locator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:27:16 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:27:45 IST" duration-ms="29443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/services/grievance-redressal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[grievance redressal | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[grievance redressal by shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[grievance redressal contact us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:27:45 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:28:14 IST" duration-ms="28588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/services/register-for-whatsapp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[register for whatsapp | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[register for whatsapp by shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[register for whatsapp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:28:14 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:28:43 IST" duration-ms="29035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/services/nach-mandate-deactivation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nach mandate deactivation | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nach mandate deactivation in shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[nach mandate deactivation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:28:43 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:29:13 IST" duration-ms="29977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/services/online-dgh-submission]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[online dgh submission | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[online dgh submission in shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[online dgh submission]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:29:13 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:29:43 IST" duration-ms="29608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/discover/media/press-coverage]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[press coverage | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[press coverage by shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[media press coverage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:29:43 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:30:15 IST" duration-ms="31811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/discover/videos]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[videos | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[explore our life insurance plans & policy videos.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[videos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:30:15 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:30:45 IST" duration-ms="30846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/discover/careers]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[careers | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[explore our shriram life careers]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:30:45 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:31:15 IST" duration-ms="29260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/legal/do-not-call]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[do not call | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[do not call by shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[do not call]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:31:15 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:31:44 IST" duration-ms="29428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/legal/data-privacy-policy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[data privacy policy | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn more about the data privacy policy of shriram life]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[data privacy policy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:31:44 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:32:14 IST" duration-ms="29757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/nri/nri-zone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nri zone | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shriram life insurance offers life insurance with term plans. nris can reach us to know more about our plans and policies.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[nri zone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:32:14 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:33:06 IST" duration-ms="52105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/life-insurance/savings-plan-calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[savings plan calculator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[get to know your life insurance premium using our savings plan calculator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[savings plan calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:33:06 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:33:48 IST" duration-ms="42281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/life-insurance/retirement-calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[retirement calculator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[get to know your retirement plan life insurance premium amount by checking our innovative retirement calculator.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[retirement calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:33:48 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:34:20 IST" duration-ms="31669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/life-insurance/child-plan-calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[child plan calculator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[get to know your child plans life insurance premium amount by checking our innovative tool]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[shriram life child plan calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:34:20 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:34:52 IST" duration-ms="32033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/blog]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[affordable insurance plan & policies in india | shriram life]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[we, at shriram life, don't want you to get panic for yours & your loved one's future. read our blogs to learn how & where to invest your money for a secured output.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dffdsf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[blog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:34:52 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:35:26 IST" duration-ms="33784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/smoking-calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[smoking calculator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[smoking have an impact on life insurance premium. get to know the approx. amount by checking the smoking calculator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No excel data found]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[smoking calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:35:26 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:35:55 IST" duration-ms="29272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/bmi-calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bmi calculator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[our health have an impact on life insurance premium. get to know the approx. amount by checking the bmi calculator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No excel data found]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bmi calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:35:55 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:36:24 IST" duration-ms="29106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/double-your-money-calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[double your money calculator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[get to know our unique double your money calculator with our innovative tool]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No excel data found]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[double your money calculator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:36:24 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:36:58 IST" duration-ms="34319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/hlv-calculator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[new hlv calculator | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[get to know our new hlv calculator by checking the innovative tool.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No excel data found]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[new hlv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method signature="PageURLverify(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:36:58 IST" name="PageURLverify" data-provider="getTestData" finished-at="2023-06-16T12:37:29 IST" duration-ms="30718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://slicsit.novactech.net/discover/about-us/public-disclosures]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public disclosures | shriram life insurance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public disclosures in shriram life insurance]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No excel data found]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public disclosures]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageURLverify -->
+        <test-method is-config="true" signature="driver_close()[pri:0, instance:Main.Run@42a48628]" started-at="2023-06-16T12:37:29 IST" name="driver_close" finished-at="2023-06-16T12:37:31 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver_close -->
+      </class> <!-- Main.Run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\j416\AppData\Local\Temp\testng-eclipse-1364305576\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 1 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(8, https://slicsit.novactech.net/404, 404 error | shriram life insurance, 404 error in the website. ...)">PageURLverify(8, https://slicsit.novactech.net/404, 404 error | shriram life insurance, 404 error in the website. ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(28, https://slicsit.novactech.net/life-insurance/retirement-calculator, retirement calculator | shri...)">PageURLverify(28, https://slicsit.novactech.net/life-insurance/retirement-calculator, retirement calculator | shri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(11, https://slicsit.novactech.net/legal/become-an-advisor, become an advisor | shriram life insuranc...)">PageURLverify(11, https://slicsit.novactech.net/legal/become-an-advisor, become an advisor | shriram life insuranc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(24, https://slicsit.novactech.net/legal/do-not-call, do not call | shriram life insurance, do not ca...)">PageURLverify(24, https://slicsit.novactech.net/legal/do-not-call, do not call | shriram life insurance, do not ca...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(16, https://slicsit.novactech.net/contact-us/branches, branch locator | shriram life insurance, loca...)">PageURLverify(16, https://slicsit.novactech.net/contact-us/branches, branch locator | shriram life insurance, loca...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(21, https://slicsit.novactech.net/discover/media/press-coverage, press coverage | shriram life insur...)">PageURLverify(21, https://slicsit.novactech.net/discover/media/press-coverage, press coverage | shriram life insur...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(30, https://slicsit.novactech.net/blog, affordable insurance plan &amp; policies in india | shriram life...)">PageURLverify(30, https://slicsit.novactech.net/blog, affordable insurance plan & policies in india | shriram life...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(34, https://slicsit.novactech.net/hlv-calculator, new hlv calculator | shriram life insurance, get t...)">PageURLverify(34, https://slicsit.novactech.net/hlv-calculator, new hlv calculator | shriram life insurance, get t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(19, https://slicsit.novactech.net/services/nach-mandate-deactivation, nach mandate deactivation | sh...)">PageURLverify(19, https://slicsit.novactech.net/services/nach-mandate-deactivation, nach mandate deactivation | sh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(26, https://slicsit.novactech.net/nri/nri-zone, nri zone | shriram life insurance, shriram life insu...)">PageURLverify(26, https://slicsit.novactech.net/nri/nri-zone, nri zone | shriram life insurance, shriram life insu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(25, https://slicsit.novactech.net/legal/data-privacy-policy, data privacy policy | shriram life insu...)">PageURLverify(25, https://slicsit.novactech.net/legal/data-privacy-policy, data privacy policy | shriram life insu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(12, https://slicsit.novactech.net/life-insurance/super-income-plan, super income plan in india | shr...)">PageURLverify(12, https://slicsit.novactech.net/life-insurance/super-income-plan, super income plan in india | shr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(27, https://slicsit.novactech.net/life-insurance/savings-plan-calculator, savings plan calculator | ...)">PageURLverify(27, https://slicsit.novactech.net/life-insurance/savings-plan-calculator, savings plan calculator | ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(13, https://slicsit.novactech.net/life-insurance/assured-income-plan, assured income plan in india |...)">PageURLverify(13, https://slicsit.novactech.net/life-insurance/assured-income-plan, assured income plan in india |...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(3, https://slicsit.novactech.net/contact-us/service-request, service request | shriram life insuranc...)">PageURLverify(3, https://slicsit.novactech.net/contact-us/service-request, service request | shriram life insuranc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(29, https://slicsit.novactech.net/life-insurance/child-plan-calculator, child plan calculator | shri...)">PageURLverify(29, https://slicsit.novactech.net/life-insurance/child-plan-calculator, child plan calculator | shri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(5, https://slicsit.novactech.net/services/aadhaar-ekyc-consent-revoking, aadhaar e-kyc consent revok...)">PageURLverify(5, https://slicsit.novactech.net/services/aadhaar-ekyc-consent-revoking, aadhaar e-kyc consent revok...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(33, https://slicsit.novactech.net/double-your-money-calculator, double your money calculator | shrir...)">PageURLverify(33, https://slicsit.novactech.net/double-your-money-calculator, double your money calculator | shrir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(9, https://slicsit.novactech.net/services/unclaimed-amounts, unclaimed amounts | shriram life insura...)">PageURLverify(9, https://slicsit.novactech.net/services/unclaimed-amounts, unclaimed amounts | shriram life insura...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(35, https://slicsit.novactech.net/discover/about-us/public-disclosures, public disclosures | shriram...)">PageURLverify(35, https://slicsit.novactech.net/discover/about-us/public-disclosures, public disclosures | shriram...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(10, https://slicsit.novactech.net/services/nav-history, nav history | shriram life insurance, nav hi...)">PageURLverify(10, https://slicsit.novactech.net/services/nav-history, nav history | shriram life insurance, nav hi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(23, https://slicsit.novactech.net/discover/careers, careers | shriram life insurance, explore our sh...)">PageURLverify(23, https://slicsit.novactech.net/discover/careers, careers | shriram life insurance, explore our sh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(2, https://slicsit.novactech.net/contact-us/faqs, frequently asked questions | shriram life insuranc...)">PageURLverify(2, https://slicsit.novactech.net/contact-us/faqs, frequently asked questions | shriram life insuranc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(32, https://slicsit.novactech.net/bmi-calculator, bmi calculator | shriram life insurance, our healt...)">PageURLverify(32, https://slicsit.novactech.net/bmi-calculator, bmi calculator | shriram life insurance, our healt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(4, https://slicsit.novactech.net/contact-us/sales-service-enquiry, sales and service enquiry | shrir...)">PageURLverify(4, https://slicsit.novactech.net/contact-us/sales-service-enquiry, sales and service enquiry | shrir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(1, https://slicsit.novactech.net/, get life insurance plans &amp; policies online | shriram life insuran...)">PageURLverify(1, https://slicsit.novactech.net/, get life insurance plans & policies online | shriram life insuran...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(15, https://slicsit.novactech.net/reach-us, reach us | shriram life insurance, you can reach us by t...)">PageURLverify(15, https://slicsit.novactech.net/reach-us, reach us | shriram life insurance, you can reach us by t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(17, https://slicsit.novactech.net/services/grievance-redressal, grievance redressal | shriram life i...)">PageURLverify(17, https://slicsit.novactech.net/services/grievance-redressal, grievance redressal | shriram life i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(14, https://slicsit.novactech.net/life-insurance/savings-plan, shriram life insurance premium saving...)">PageURLverify(14, https://slicsit.novactech.net/life-insurance/savings-plan, shriram life insurance premium saving...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(22, https://slicsit.novactech.net/discover/videos, videos | shriram life insurance, explore our life...)">PageURLverify(22, https://slicsit.novactech.net/discover/videos, videos | shriram life insurance, explore our life...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(7, https://slicsit.novactech.net/legal/terms-and-conditions, terms and conditions | shriram life ins...)">PageURLverify(7, https://slicsit.novactech.net/legal/terms-and-conditions, terms and conditions | shriram life ins...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(20, https://slicsit.novactech.net/services/online-dgh-submission, online dgh submission | shriram li...)">PageURLverify(20, https://slicsit.novactech.net/services/online-dgh-submission, online dgh submission | shriram li...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(31, https://slicsit.novactech.net/smoking-calculator, smoking calculator | shriram life insurance, s...)">PageURLverify(31, https://slicsit.novactech.net/smoking-calculator, smoking calculator | shriram life insurance, s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(18, https://slicsit.novactech.net/services/register-for-whatsapp, register for whatsapp | shriram li...)">PageURLverify(18, https://slicsit.novactech.net/services/register-for-whatsapp, register for whatsapp | shriram li...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Main.Run" class="method navigator-link" hash-for-method="PageURLverify(6, https://slicsit.novactech.net/testimonials/customer-testimonials, customer testimonials | shriram...)">PageURLverify(6, https://slicsit.novactech.net/testimonials/customer-testimonials, customer testimonials | shriram...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Main.Run</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(8, https://slicsit.novactech.net/404, 404 error | shriram life insurance, 404 error in the website. ...)">
+                  </a> <!-- PageURLverify(8, https://slicsit.novactech.net/404, 404 error | shriram life insurance, 404 error in the website. ...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(8, https://slicsit.novactech.net/404, 404 error | shriram life insurance, 404 error in the website. you will be redirected to life insurance policy pages., dffdsf, 404 error)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;h1&quot;}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DIGITAL-0059&apos;, ip: &apos;172.23.4.196&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\j416\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cdaff130bbcf58b362581426b88032b
+*** Element info: {Using=tag name, value=h1}
+	at jdk.internal.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByTagName.findElement(By.java:320)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Main.Run.PageURLverify(Run.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Main.Run</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(28, https://slicsit.novactech.net/life-insurance/retirement-calculator, retirement calculator | shri...)">
+                  </a> <!-- PageURLverify(28, https://slicsit.novactech.net/life-insurance/retirement-calculator, retirement calculator | shri...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(28, https://slicsit.novactech.net/life-insurance/retirement-calculator, retirement calculator | shriram life insurance, get to know your retirement plan life insurance premium amount by checking our innovative retirement calculator., dffdsf, retirement calculator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(11, https://slicsit.novactech.net/legal/become-an-advisor, become an advisor | shriram life insuranc...)">
+                  </a> <!-- PageURLverify(11, https://slicsit.novactech.net/legal/become-an-advisor, become an advisor | shriram life insuranc...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(11, https://slicsit.novactech.net/legal/become-an-advisor, become an advisor | shriram life insurance, register as an advisor in shriram life insurance, dffdsf, become an advisor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(24, https://slicsit.novactech.net/legal/do-not-call, do not call | shriram life insurance, do not ca...)">
+                  </a> <!-- PageURLverify(24, https://slicsit.novactech.net/legal/do-not-call, do not call | shriram life insurance, do not ca...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(24, https://slicsit.novactech.net/legal/do-not-call, do not call | shriram life insurance, do not call by shriram life insurance, dffdsf, do not call)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(16, https://slicsit.novactech.net/contact-us/branches, branch locator | shriram life insurance, loca...)">
+                  </a> <!-- PageURLverify(16, https://slicsit.novactech.net/contact-us/branches, branch locator | shriram life insurance, loca...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(16, https://slicsit.novactech.net/contact-us/branches, branch locator | shriram life insurance, locate the shriram life insurance branches nearby your location, dffdsf, branch locator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(21, https://slicsit.novactech.net/discover/media/press-coverage, press coverage | shriram life insur...)">
+                  </a> <!-- PageURLverify(21, https://slicsit.novactech.net/discover/media/press-coverage, press coverage | shriram life insur...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(21, https://slicsit.novactech.net/discover/media/press-coverage, press coverage | shriram life insurance, press coverage by shriram life insurance, dffdsf, media press coverage)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(30, https://slicsit.novactech.net/blog, affordable insurance plan &amp; policies in india | shriram life...)">
+                  </a> <!-- PageURLverify(30, https://slicsit.novactech.net/blog, affordable insurance plan & policies in india | shriram life...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(30, https://slicsit.novactech.net/blog, affordable insurance plan & policies in india | shriram life, we, at shriram life, don't want you to get panic for yours & your loved one's future. read our blogs to learn how & where to invest your money for a secured output., dffdsf, blog)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(34, https://slicsit.novactech.net/hlv-calculator, new hlv calculator | shriram life insurance, get t...)">
+                  </a> <!-- PageURLverify(34, https://slicsit.novactech.net/hlv-calculator, new hlv calculator | shriram life insurance, get t...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(34, https://slicsit.novactech.net/hlv-calculator, new hlv calculator | shriram life insurance, get to know our new hlv calculator by checking the innovative tool., No excel data found, new hlv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(19, https://slicsit.novactech.net/services/nach-mandate-deactivation, nach mandate deactivation | sh...)">
+                  </a> <!-- PageURLverify(19, https://slicsit.novactech.net/services/nach-mandate-deactivation, nach mandate deactivation | sh...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(19, https://slicsit.novactech.net/services/nach-mandate-deactivation, nach mandate deactivation | shriram life insurance, nach mandate deactivation in shriram life insurance, dffdsf, nach mandate deactivation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(26, https://slicsit.novactech.net/nri/nri-zone, nri zone | shriram life insurance, shriram life insu...)">
+                  </a> <!-- PageURLverify(26, https://slicsit.novactech.net/nri/nri-zone, nri zone | shriram life insurance, shriram life insu...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(26, https://slicsit.novactech.net/nri/nri-zone, nri zone | shriram life insurance, shriram life insurance offers life insurance with term plans. nris can reach us to know more about our plans and policies., dffdsf, nri zone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(25, https://slicsit.novactech.net/legal/data-privacy-policy, data privacy policy | shriram life insu...)">
+                  </a> <!-- PageURLverify(25, https://slicsit.novactech.net/legal/data-privacy-policy, data privacy policy | shriram life insu...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(25, https://slicsit.novactech.net/legal/data-privacy-policy, data privacy policy | shriram life insurance, learn more about the data privacy policy of shriram life, dffdsf, data privacy policy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(12, https://slicsit.novactech.net/life-insurance/super-income-plan, super income plan in india | shr...)">
+                  </a> <!-- PageURLverify(12, https://slicsit.novactech.net/life-insurance/super-income-plan, super income plan in india | shr...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(12, https://slicsit.novactech.net/life-insurance/super-income-plan, super income plan in india | shriram life insurance, buy super income life insurance premium plan and track policy online. riders add-ons. get covered up to 75 years and also avail tax benefits u/s 80c, dffdsf, shriram life super income plan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(27, https://slicsit.novactech.net/life-insurance/savings-plan-calculator, savings plan calculator | ...)">
+                  </a> <!-- PageURLverify(27, https://slicsit.novactech.net/life-insurance/savings-plan-calculator, savings plan calculator | ...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(27, https://slicsit.novactech.net/life-insurance/savings-plan-calculator, savings plan calculator | shriram life insurance, get to know your life insurance premium using our savings plan calculator, dffdsf, savings plan calculator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(13, https://slicsit.novactech.net/life-insurance/assured-income-plan, assured income plan in india |...)">
+                  </a> <!-- PageURLverify(13, https://slicsit.novactech.net/life-insurance/assured-income-plan, assured income plan in india |...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(13, https://slicsit.novactech.net/life-insurance/assured-income-plan, assured income plan in india | shriram life insurance, buy assured income life insurance premium plan and track policy online. riders add-ons. get covered up to 70 years and also avail tax benefits u/s 80c, dffdsf, shriram life assured income plan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(3, https://slicsit.novactech.net/contact-us/service-request, service request | shriram life insuranc...)">
+                  </a> <!-- PageURLverify(3, https://slicsit.novactech.net/contact-us/service-request, service request | shriram life insuranc...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(3, https://slicsit.novactech.net/contact-us/service-request, service request | shriram life insurance, speak to shriram life insurance company's experts for all your service requests. our branch locator helps you to find the nearest branch across india., dffdsf, service request)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(29, https://slicsit.novactech.net/life-insurance/child-plan-calculator, child plan calculator | shri...)">
+                  </a> <!-- PageURLverify(29, https://slicsit.novactech.net/life-insurance/child-plan-calculator, child plan calculator | shri...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(29, https://slicsit.novactech.net/life-insurance/child-plan-calculator, child plan calculator | shriram life insurance, get to know your child plans life insurance premium amount by checking our innovative tool, dffdsf, shriram life child plan calculator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(5, https://slicsit.novactech.net/services/aadhaar-ekyc-consent-revoking, aadhaar e-kyc consent revok...)">
+                  </a> <!-- PageURLverify(5, https://slicsit.novactech.net/services/aadhaar-ekyc-consent-revoking, aadhaar e-kyc consent revok...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(5, https://slicsit.novactech.net/services/aadhaar-ekyc-consent-revoking, aadhaar e-kyc consent revoking | shriram life insurance, aadhaar e-kyc consent revoking by shriram life insurance, dffdsf, aadhaar e-kyc consent revoking)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(33, https://slicsit.novactech.net/double-your-money-calculator, double your money calculator | shrir...)">
+                  </a> <!-- PageURLverify(33, https://slicsit.novactech.net/double-your-money-calculator, double your money calculator | shrir...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(33, https://slicsit.novactech.net/double-your-money-calculator, double your money calculator | shriram life insurance, get to know our unique double your money calculator with our innovative tool, No excel data found, double your money calculator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(9, https://slicsit.novactech.net/services/unclaimed-amounts, unclaimed amounts | shriram life insura...)">
+                  </a> <!-- PageURLverify(9, https://slicsit.novactech.net/services/unclaimed-amounts, unclaimed amounts | shriram life insura...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(9, https://slicsit.novactech.net/services/unclaimed-amounts, unclaimed amounts | shriram life insurance, unclaimed amounts in shriram life insurance, dffdsf, unclaimed amounts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(35, https://slicsit.novactech.net/discover/about-us/public-disclosures, public disclosures | shriram...)">
+                  </a> <!-- PageURLverify(35, https://slicsit.novactech.net/discover/about-us/public-disclosures, public disclosures | shriram...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(35, https://slicsit.novactech.net/discover/about-us/public-disclosures, public disclosures | shriram life insurance, public disclosures in shriram life insurance, No excel data found, public disclosures)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(10, https://slicsit.novactech.net/services/nav-history, nav history | shriram life insurance, nav hi...)">
+                  </a> <!-- PageURLverify(10, https://slicsit.novactech.net/services/nav-history, nav history | shriram life insurance, nav hi...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(10, https://slicsit.novactech.net/services/nav-history, nav history | shriram life insurance, nav history by shriram life insurance, dffdsf, nav history)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(23, https://slicsit.novactech.net/discover/careers, careers | shriram life insurance, explore our sh...)">
+                  </a> <!-- PageURLverify(23, https://slicsit.novactech.net/discover/careers, careers | shriram life insurance, explore our sh...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(23, https://slicsit.novactech.net/discover/careers, careers | shriram life insurance, explore our shriram life careers, dffdsf, careers)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(2, https://slicsit.novactech.net/contact-us/faqs, frequently asked questions | shriram life insuranc...)">
+                  </a> <!-- PageURLverify(2, https://slicsit.novactech.net/contact-us/faqs, frequently asked questions | shriram life insuranc...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(2, https://slicsit.novactech.net/contact-us/faqs, frequently asked questions | shriram life insurance, shriram life compiled a list of frequently asked life insurance questions and answers, dffdsf, frequently asked questions(faq))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(32, https://slicsit.novactech.net/bmi-calculator, bmi calculator | shriram life insurance, our healt...)">
+                  </a> <!-- PageURLverify(32, https://slicsit.novactech.net/bmi-calculator, bmi calculator | shriram life insurance, our healt...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(32, https://slicsit.novactech.net/bmi-calculator, bmi calculator | shriram life insurance, our health have an impact on life insurance premium. get to know the approx. amount by checking the bmi calculator, No excel data found, bmi calculator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(4, https://slicsit.novactech.net/contact-us/sales-service-enquiry, sales and service enquiry | shrir...)">
+                  </a> <!-- PageURLverify(4, https://slicsit.novactech.net/contact-us/sales-service-enquiry, sales and service enquiry | shrir...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(4, https://slicsit.novactech.net/contact-us/sales-service-enquiry, sales and service enquiry | shriram life insurance, speak to shriram life insurance company's experts for all your sales and service related queries. our branch locator helps you to find the nearest branch across india., dffdsf, sales and service enquiry)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(1, https://slicsit.novactech.net/, get life insurance plans &amp; policies online | shriram life insuran...)">
+                  </a> <!-- PageURLverify(1, https://slicsit.novactech.net/, get life insurance plans & policies online | shriram life insuran...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(1, https://slicsit.novactech.net/, get life insurance plans & policies online | shriram life insurance, shriram life offers a range of life insurance plans covering senior citizens, women, child and nris. choose the best savings, protection, retirement and child plans, dffdsf, let us help to you to choose the right life insurance plan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(15, https://slicsit.novactech.net/reach-us, reach us | shriram life insurance, you can reach us by t...)">
+                  </a> <!-- PageURLverify(15, https://slicsit.novactech.net/reach-us, reach us | shriram life insurance, you can reach us by t...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(15, https://slicsit.novactech.net/reach-us, reach us | shriram life insurance, you can reach us by toll-free numbers or through branch, dffdsf, reach us)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(17, https://slicsit.novactech.net/services/grievance-redressal, grievance redressal | shriram life i...)">
+                  </a> <!-- PageURLverify(17, https://slicsit.novactech.net/services/grievance-redressal, grievance redressal | shriram life i...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(17, https://slicsit.novactech.net/services/grievance-redressal, grievance redressal | shriram life insurance, grievance redressal by shriram life insurance, dffdsf, grievance redressal contact us)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(14, https://slicsit.novactech.net/life-insurance/savings-plan, shriram life insurance premium saving...)">
+                  </a> <!-- PageURLverify(14, https://slicsit.novactech.net/life-insurance/savings-plan, shriram life insurance premium saving...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(14, https://slicsit.novactech.net/life-insurance/savings-plan, shriram life insurance premium savings plans in india, buy shriram life insurance premium savings plans and track policy online. can opt for riders add-ons. get covered with tax benefits u/s 80c, dffdsf, life insurance savings plan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(22, https://slicsit.novactech.net/discover/videos, videos | shriram life insurance, explore our life...)">
+                  </a> <!-- PageURLverify(22, https://slicsit.novactech.net/discover/videos, videos | shriram life insurance, explore our life...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(22, https://slicsit.novactech.net/discover/videos, videos | shriram life insurance, explore our life insurance plans & policy videos., dffdsf, videos)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(7, https://slicsit.novactech.net/legal/terms-and-conditions, terms and conditions | shriram life ins...)">
+                  </a> <!-- PageURLverify(7, https://slicsit.novactech.net/legal/terms-and-conditions, terms and conditions | shriram life ins...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(7, https://slicsit.novactech.net/legal/terms-and-conditions, terms and conditions | shriram life insurance, get to know the shriram life terms and conditions, dffdsf, terms and conditions)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(20, https://slicsit.novactech.net/services/online-dgh-submission, online dgh submission | shriram li...)">
+                  </a> <!-- PageURLverify(20, https://slicsit.novactech.net/services/online-dgh-submission, online dgh submission | shriram li...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(20, https://slicsit.novactech.net/services/online-dgh-submission, online dgh submission | shriram life insurance, online dgh submission in shriram life insurance, dffdsf, online dgh submission)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(31, https://slicsit.novactech.net/smoking-calculator, smoking calculator | shriram life insurance, s...)">
+                  </a> <!-- PageURLverify(31, https://slicsit.novactech.net/smoking-calculator, smoking calculator | shriram life insurance, s...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(31, https://slicsit.novactech.net/smoking-calculator, smoking calculator | shriram life insurance, smoking have an impact on life insurance premium. get to know the approx. amount by checking the smoking calculator, No excel data found, smoking calculator)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(18, https://slicsit.novactech.net/services/register-for-whatsapp, register for whatsapp | shriram li...)">
+                  </a> <!-- PageURLverify(18, https://slicsit.novactech.net/services/register-for-whatsapp, register for whatsapp | shriram li...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(18, https://slicsit.novactech.net/services/register-for-whatsapp, register for whatsapp | shriram life insurance, register for whatsapp by shriram life insurance, dffdsf, register for whatsapp)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PageURLverify(6, https://slicsit.novactech.net/testimonials/customer-testimonials, customer testimonials | shriram...)">
+                  </a> <!-- PageURLverify(6, https://slicsit.novactech.net/testimonials/customer-testimonials, customer testimonials | shriram...) -->
+                  <span class="method-name">PageURLverify</span>
+                  <span class="parameters">(6, https://slicsit.novactech.net/testimonials/customer-testimonials, customer testimonials | shriram life insurance, get to know the customer testimonials, dffdsf, alpabetical testimonials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\j416\AppData\Local\Temp\testng-eclipse-1364305576\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Main.Run&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PageURLverify')
+data.setCell(0, 2, 'Main.Run')
+data.setCell(0, 3, 52105);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PageURLverify')
+data.setCell(1, 2, 'Main.Run')
+data.setCell(1, 3, 43664);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PageURLverify')
+data.setCell(2, 2, 'Main.Run')
+data.setCell(2, 3, 42350);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PageURLverify')
+data.setCell(3, 2, 'Main.Run')
+data.setCell(3, 3, 42281);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PageURLverify')
+data.setCell(4, 2, 'Main.Run')
+data.setCell(4, 3, 34319);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PageURLverify')
+data.setCell(5, 2, 'Main.Run')
+data.setCell(5, 3, 33784);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PageURLverify')
+data.setCell(6, 2, 'Main.Run')
+data.setCell(6, 3, 32215);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PageURLverify')
+data.setCell(7, 2, 'Main.Run')
+data.setCell(7, 3, 32045);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'PageURLverify')
+data.setCell(8, 2, 'Main.Run')
+data.setCell(8, 3, 32033);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'PageURLverify')
+data.setCell(9, 2, 'Main.Run')
+data.setCell(9, 3, 31931);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'PageURLverify')
+data.setCell(10, 2, 'Main.Run')
+data.setCell(10, 3, 31811);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'PageURLverify')
+data.setCell(11, 2, 'Main.Run')
+data.setCell(11, 3, 31810);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'PageURLverify')
+data.setCell(12, 2, 'Main.Run')
+data.setCell(12, 3, 31669);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PageURLverify')
+data.setCell(13, 2, 'Main.Run')
+data.setCell(13, 3, 31214);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PageURLverify')
+data.setCell(14, 2, 'Main.Run')
+data.setCell(14, 3, 31126);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'PageURLverify')
+data.setCell(15, 2, 'Main.Run')
+data.setCell(15, 3, 30846);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'PageURLverify')
+data.setCell(16, 2, 'Main.Run')
+data.setCell(16, 3, 30718);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'PageURLverify')
+data.setCell(17, 2, 'Main.Run')
+data.setCell(17, 3, 30548);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'PageURLverify')
+data.setCell(18, 2, 'Main.Run')
+data.setCell(18, 3, 29977);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'PageURLverify')
+data.setCell(19, 2, 'Main.Run')
+data.setCell(19, 3, 29850);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'PageURLverify')
+data.setCell(20, 2, 'Main.Run')
+data.setCell(20, 3, 29757);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'PageURLverify')
+data.setCell(21, 2, 'Main.Run')
+data.setCell(21, 3, 29608);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'PageURLverify')
+data.setCell(22, 2, 'Main.Run')
+data.setCell(22, 3, 29443);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'PageURLverify')
+data.setCell(23, 2, 'Main.Run')
+data.setCell(23, 3, 29428);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'PageURLverify')
+data.setCell(24, 2, 'Main.Run')
+data.setCell(24, 3, 29272);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'PageURLverify')
+data.setCell(25, 2, 'Main.Run')
+data.setCell(25, 3, 29260);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'PageURLverify')
+data.setCell(26, 2, 'Main.Run')
+data.setCell(26, 3, 29118);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'PageURLverify')
+data.setCell(27, 2, 'Main.Run')
+data.setCell(27, 3, 29106);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'PageURLverify')
+data.setCell(28, 2, 'Main.Run')
+data.setCell(28, 3, 29080);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'PageURLverify')
+data.setCell(29, 2, 'Main.Run')
+data.setCell(29, 3, 29072);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'PageURLverify')
+data.setCell(30, 2, 'Main.Run')
+data.setCell(30, 3, 29035);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'PageURLverify')
+data.setCell(31, 2, 'Main.Run')
+data.setCell(31, 3, 28934);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'PageURLverify')
+data.setCell(32, 2, 'Main.Run')
+data.setCell(32, 3, 28744);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'PageURLverify')
+data.setCell(33, 2, 'Main.Run')
+data.setCell(33, 3, 28588);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'PageURLverify')
+data.setCell(34, 2, 'Main.Run')
+data.setCell(34, 3, 22636);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Main.Run</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browserExe</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(1, https://slicsit.novactech.net/, get life insurance plans & policies online | shriram life insuran...)</span>
+                <span class="method-start">9915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(2, https://slicsit.novactech.net/contact-us/faqs, frequently asked questions | shriram life insuranc...)</span>
+                <span class="method-start">53632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(3, https://slicsit.novactech.net/contact-us/service-request, service request | shriram life insuranc...)</span>
+                <span class="method-start">83486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(4, https://slicsit.novactech.net/contact-us/sales-service-enquiry, sales and service enquiry | shrir...)</span>
+                <span class="method-start">114717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(5, https://slicsit.novactech.net/services/aadhaar-ekyc-consent-revoking, aadhaar e-kyc consent revok...)</span>
+                <span class="method-start">145849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(6, https://slicsit.novactech.net/testimonials/customer-testimonials, customer testimonials | shriram...)</span>
+                <span class="method-start">174790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(7, https://slicsit.novactech.net/legal/terms-and-conditions, terms and conditions | shriram life ins...)</span>
+                <span class="method-start">206842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PageURLverify(8, https://slicsit.novactech.net/404, 404 error | shriram life insurance, 404 error in the website. ...)</span>
+                <span class="method-start">235594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(9, https://slicsit.novactech.net/services/unclaimed-amounts, unclaimed amounts | shriram life insura...)</span>
+                <span class="method-start">258235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(10, https://slicsit.novactech.net/services/nav-history, nav history | shriram life insurance, nav hi...)</span>
+                <span class="method-start">287324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(11, https://slicsit.novactech.net/legal/become-an-advisor, become an advisor | shriram life insuranc...)</span>
+                <span class="method-start">316405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(12, https://slicsit.novactech.net/life-insurance/super-income-plan, super income plan in india | shr...)</span>
+                <span class="method-start">358767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(13, https://slicsit.novactech.net/life-insurance/assured-income-plan, assured income plan in india |...)</span>
+                <span class="method-start">390699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(14, https://slicsit.novactech.net/life-insurance/savings-plan, shriram life insurance premium saving...)</span>
+                <span class="method-start">422530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(15, https://slicsit.novactech.net/reach-us, reach us | shriram life insurance, you can reach us by t...)</span>
+                <span class="method-start">453081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(16, https://slicsit.novactech.net/contact-us/branches, branch locator | shriram life insurance, loca...)</span>
+                <span class="method-start">485299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(17, https://slicsit.novactech.net/services/grievance-redressal, grievance redressal | shriram life i...)</span>
+                <span class="method-start">514421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(18, https://slicsit.novactech.net/services/register-for-whatsapp, register for whatsapp | shriram li...)</span>
+                <span class="method-start">543869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(19, https://slicsit.novactech.net/services/nach-mandate-deactivation, nach mandate deactivation | sh...)</span>
+                <span class="method-start">572460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(20, https://slicsit.novactech.net/services/online-dgh-submission, online dgh submission | shriram li...)</span>
+                <span class="method-start">601500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(21, https://slicsit.novactech.net/discover/media/press-coverage, press coverage | shriram life insur...)</span>
+                <span class="method-start">631482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(22, https://slicsit.novactech.net/discover/videos, videos | shriram life insurance, explore our life...)</span>
+                <span class="method-start">661094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(23, https://slicsit.novactech.net/discover/careers, careers | shriram life insurance, explore our sh...)</span>
+                <span class="method-start">692907 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(24, https://slicsit.novactech.net/legal/do-not-call, do not call | shriram life insurance, do not ca...)</span>
+                <span class="method-start">723756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(25, https://slicsit.novactech.net/legal/data-privacy-policy, data privacy policy | shriram life insu...)</span>
+                <span class="method-start">753021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(26, https://slicsit.novactech.net/nri/nri-zone, nri zone | shriram life insurance, shriram life insu...)</span>
+                <span class="method-start">782452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(27, https://slicsit.novactech.net/life-insurance/savings-plan-calculator, savings plan calculator | ...)</span>
+                <span class="method-start">812218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(28, https://slicsit.novactech.net/life-insurance/retirement-calculator, retirement calculator | shri...)</span>
+                <span class="method-start">864334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(29, https://slicsit.novactech.net/life-insurance/child-plan-calculator, child plan calculator | shri...)</span>
+                <span class="method-start">906617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(30, https://slicsit.novactech.net/blog, affordable insurance plan & policies in india | shriram life...)</span>
+                <span class="method-start">938296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(31, https://slicsit.novactech.net/smoking-calculator, smoking calculator | shriram life insurance, s...)</span>
+                <span class="method-start">970332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(32, https://slicsit.novactech.net/bmi-calculator, bmi calculator | shriram life insurance, our healt...)</span>
+                <span class="method-start">1004123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(33, https://slicsit.novactech.net/double-your-money-calculator, double your money calculator | shrir...)</span>
+                <span class="method-start">1033397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(34, https://slicsit.novactech.net/hlv-calculator, new hlv calculator | shriram life insurance, get t...)</span>
+                <span class="method-start">1062505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PageURLverify(35, https://slicsit.novactech.net/discover/about-us/public-disclosures, public disclosures | shriram...)</span>
+                <span class="method-start">1096826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">driver_close</span>
+                <span class="method-start">1127551 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
